@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.signups{
+  height:532px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 234, 241);
+}
+.scontainer{
+  height:450px;
+  width:300px;
+  background-color: white;
+  /* border:2px solid black; */
+}
+.login-img{
+  height:30%;
+  width:300px;
+ 
+  background-image: url(../../images/login.png);
+  background-size: cover;
+
+}
+.signup-box{
+  height:70%;
+  width:300px;
+  
+}
+.sheader{
+  height:40px;
+  
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sform-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:8px;
+  padding-top: 2px;
+}
+.sele{
+  height:30px;
+  width:85%;
+  margin:8px 5px;
+ 
+  border-radius: 5px;
+  padding:2px 6px;
+  border:1px solid rgb(172, 167, 167);
+  outline: none;
+  
+}
+.sclkbtn{
+  height:35px;
+  width:90%;
+  margin:8px 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: rgb(243, 34, 104);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sclkbtn:active{
+  scale:0.9;
+}

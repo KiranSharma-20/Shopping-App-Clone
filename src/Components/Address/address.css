@@ -1,0 +1,150 @@
+.address-container {
+     top: 0;
+      left: 0;
+      /* width: 100vw;
+      height: 100vh; */
+    max-width: 100%;
+    width: 65%;
+    margin: 15px auto;
+    display: flex;
+    align-items: start;
+}
+.address-box{
+  height:500px;
+  width:500px;
+  background-color: white;
+  /* border:2px solid black; */
+}
+.aheader{
+  height:30px;
+  /* margin-top:5px; */
+  /* border:2px solid black; */
+  margin-bottom: 3px;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aform-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  /* box-sizing: border-box; */
+  padding:10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.aele{
+  height:28px;
+  width:85%;
+  margin:8px 5px;
+ 
+  border-radius: 5px;
+  padding:2px 6px;
+  border:1px solid rgb(172, 167, 167);
+  outline: none;
+  
+}
+.aclkbtn{
+  height:33px;
+  width:430px;
+  margin:8px ;
+  margin-left: 33px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color:  #ff3564;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.clkbtn:active{
+  scale:0.9;
+}
+
+
+
+
+
+.acart_bill_section {
+    width: 35%;
+    border-left: 1px solid #a8a8a8;
+    padding: 10px 16px;
+    margin-top: 50px;
+}
+
+.acart_bill_coupon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+      margin-top: 20px;
+}
+
+.cart_bill_coupon span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart_bill_coupon button {
+    color: #FF3F6C;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 1px solid #FF3F6C;
+    cursor: pointer;
+    background: transparent;
+}
+
+.cart_bill span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3d3d3d;
+    letter-spacing: 0.5px;
+}
+
+.cart_bill table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.cart_bill table tr td:first-child {
+    width: 100%;
+}
+
+.cart_bill table tr td:last-child {
+    text-align: right;
+}
+
+.cart_bill table tr td {
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+.total_amount td {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.cart_bill button {
+    background: #FF3F6C;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px;
+    width: 100%;
+    height:auto;
+    color: #fefefe;
+    cursor: pointer;
+}
+
+.cart_bill button:active {
+    scale: 0.95;
+}
