@@ -1,13 +1,16 @@
 import { useNavigate } from "react-router-dom";
 import "./profile.css";
 
-function Profile() {
+function Profile({ isOpen, close }) {
   const navigate = useNavigate();
   console.log("hello");
+  if (!isOpen) {
+    return null;
+  }
 
   return (
     <>
-      <div className="p-container">
+      <div className="p-container" onClick={close}>
         <h3>Welcome</h3>
         <p> To access account and manage orders you have to</p>
         <button

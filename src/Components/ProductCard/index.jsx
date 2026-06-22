@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import "./productCard.css";
 import { setCart, setProducts } from "../../redux/Slice/productSlice";
-import { useState } from "react";
+
 import toast, { Toaster } from "react-hot-toast";
 
 function ProductCard({ data }) {

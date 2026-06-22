@@ -12,8 +12,12 @@ function Header() {
   const navigate = useNavigate();
   let cart = useSelector((state) => state.product.cart);
 
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
+  const close = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="myntra_header">
       <div className="header_navigation">
@@ -87,7 +91,9 @@ function Header() {
             className="header_item login "
             id="plogin"
             onClick={() => {
-              setIsHovered(!isHovered);
+              // setIsHovered(!isHovered);
+
+              setIsOpen(!isOpen);
             }}
             // onMouseOver={() => {
             //   setIsHovered(!isHovered);
@@ -95,9 +101,9 @@ function Header() {
           >
             <FaRegUser />
             <span>Profile</span>
-            {isHovered && (
-              <div className={`pdisplay ${isHovered ? " " : "hidden"}`}>
-                <Profile />
+            {isOpen && (
+              <div className={`pdisplay ${isOpen ? " " : "hidden"}`}>
+                <Profile isOpen={isOpen} close={close} />
               </div>
             )}
           </div>

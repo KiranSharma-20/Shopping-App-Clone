@@ -1,57 +1,68 @@
-.p-container{
+.p-container {
   height: 400px;
-  width:300px;
-  border:1px solid rgb(223, 223, 223);
+  width: 300px;
+  border: 1px solid rgb(223, 223, 223);
   background-color: white;
   padding-left: 10px;
-  position: static;
-  left:1000px;
-  top:40px;
+  position: absolute;
+  left: 1000px;
+  top: 40px;
+  z-index: 50;
+  inset: 0;
+
 }
-h3{
-  height:35px;
-  
+
+h3 {
+  height: 35px;
+
   padding-top: 8px;
   padding-left: 3px;
-  color:rgb(46, 45, 45);
+  color: rgb(46, 45, 45);
 }
-p{
-  color:rgb(97, 97, 97);
+
+p {
+  color: rgb(97, 97, 97);
   padding-left: 3px;
-  margin:3px;
+  margin: 3px;
 }
-button{
-  height:30px;
-  width:90px;
+
+button {
+  height: 30px;
+  width: 90px;
   margin: 5px;
   margin-left: 6px;
   outline: none;
-  border:2px solid rgb(231, 84, 109);
+  border: 2px solid rgb(231, 84, 109);
   background-color: white;
   color: rgb(231, 84, 109);
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
 }
-button:hover{
-  scale:1.09;
+
+button:hover {
+  scale: 1.09;
 }
-button:active{
-  scale:0.9;
+
+button:active {
+  scale: 0.9;
 }
-.underline{
+
+.underline {
   /* width:90%; */
-  margin:5px 10px;
+  margin: 5px 10px;
   border-bottom: 1px solid rgb(196, 194, 194);
 }
-li{
+
+li {
   list-style: none;
-  margin:8px 8px;
-  color:rgb(97, 97, 97);
+  margin: 8px 8px;
+  color: rgb(97, 97, 97);
   cursor: pointer;
 }
-li:hover{
+
+li:hover {
   font-size: 18px;
-  color:rgb(46, 46, 46);
+  color: rgb(46, 46, 46);
   font-weight: 600;
 }
