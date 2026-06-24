@@ -1,4 +1,4 @@
-import "./EmptyDataa.css";
+import "./emptyDataa.css";
 import { MyntraData } from "../../data";
 import { useNavigate } from "react-router-dom";
 
