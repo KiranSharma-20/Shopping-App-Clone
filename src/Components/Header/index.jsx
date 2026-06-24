@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegUser } from "react-icons/fa6";
 import { FiTruck } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa6";
-import "./Header.css";
+import "./header.css";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useState } from "react";
